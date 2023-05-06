@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsh Jha Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+    
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="sty.css">
+    
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="pf.jpg" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">Tech Stack</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Harsh Jha</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Aspiring Software-Dev</p>
+        <img src="pfp.jpg" alt="a picture of harsh jha" class="intro__img">
+    </section>
+
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">Programming Languages I know</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Python</h3>
+                <p>I have completed all the basics and syntax of python. Created a database management system in Python to access customer data 
+                    and information retrieval. Integrated SQL and python to store data in the SQL server.</p>
+            </div> <!-- / service -->
+
+            <div class="service">
+                <h3>C</h3>
+                <p>
+                    Covered this in Semester-1 of my course. I have covered all the basic syntax of C and currently working on a project using C.
+                </p>
+            </div> <!-- / service -->
+
+            <div class="service">
+                <h3>HTML/CSS/JS(Web-Dev)</h3>
+                <p>I have covered all the aspects of web development and currently, I'm in the phase of making projects and exploring new templates. To date, I have completed 5 projects on web development including this.</p>
+            </div> <!-- / service -->
+        </div> <!-- / services -->
+
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about"> Aspiring Web Designer & Software-Dev based out of MUMBAI</p>
+
+        <div class="about-me__body">
+            <p><strong>Hi myself Harsh Jha and I'm currently pursuing a Bachelor's Degree in Information Technology from K.J Somaiya College of Engineering(KJSCE). I have completed High School in May 2021 majoring in Computer Science. Also have done a lot of projects to increase my Logical thinking(DS and Algo)Aiming for an internship in FAANG(Facebook, Apple, Amazon, Netflix, Google)</strong> 
+
+            </p>
+            <p><strong>EDUCATION:</strong>
+                <ul>
+                    <li><strong>Middle School(May'19)</strong></li>
+                    <li><strong>High School(May'19-May'21)</strong></li>
+                    <li><strong>BTECH IN Information Technology(October'21-June'25)</strong></li>
+                </ul>
+            
+            
+            </p>
+        </div>
+
+        <img src="pfp.jpg" alt="" class="about-me__img">
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+        <div class="portfolio">
+            Hotel Management System Using Python and Sql
+            <a href="https://github.com/harsh-sss/Hotel-Management-System" class="portfolio__item">
+                <img src="https://www.bdtask.com/sp/xain/img/hotel-management-system-bdtask.webp" alt="" class="portfolio__img">
+            </a>
+
+             University Management System Using Java
+            <a href="https://github.com/harsh-sss/Uni-Management/tree/main/system" class="portfolio__item">
+                <img src="https://camudigitalcampus.com/wp-content/uploads/2021/11/University-Management-System.png" alt="" class="portfolio__img">
+            </a>
+
+            E-Commerce Shopping Website Using HTML5, CSS, JS and Firebase
+            <a href="https://github.com/harsh-sss/e_commerce.github.io" class="portfolio__item">
+                <img src="https://www.magentoindia.in/wp-content/themes/magento/assets/images/E-commerce-store.jpg" alt="" class="portfolio__img">
+            </a>
+
+            Social Media Marketing Agency Using HTML5, CSS, JS and Firebase
+            <a href="https://github.com/harsh-sss/uptherocket.github.io" class="portfolio__item">
+                <img src="https://www.digitalvidya.com/wp-content/uploads/2017/07/Social_Media_Agency.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 05 
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-05.jpg" alt="" class="portfolio__img">
+            </a>
+
+            - Portfolio item 06 
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-06.jpg" alt="" class="portfolio__img">
+            </a>
+
+            Portfolio item 07 
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-07.jpg" alt="" class="portfolio__img">
+            </a>
+
+            Portfolio item 08 
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-08.jpg" alt="" class="portfolio__img">
+            </a>
+
+             Portfolio item 09
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-09.jpg" alt="" class="portfolio__img">
+            </a>
+
+             Portfolio item 0 0
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-10.jpg" alt="" class="portfolio__img">
+            </a> -->
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        
+        <a href= "mailto:harshsssjha2308@gmail.com" class="footer__link">harshsssjha2308@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" target="_blank" href="https://www.instagram.com/harshsss_0803/">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" target="_blank" href="https://www.linkedin.com/in/harshvardhan-jha-8529a622a/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" target="_blank" href="https://twitter.com/HarshJh16399703">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" target="_blank" href="https://github.com/harsh-sss">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
